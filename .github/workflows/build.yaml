@@ -29,7 +29,7 @@ jobs:
         run: go mod tidy
 
       - name: Install latest selfupdate cli
-        run: go install selfupdate.blockthrough.com/cmd/selfupdate@v0.0.3
+        run: go install selfupdate.blockthrough.com/cmd/selfupdate@v1.0.0
 
       - name: Create a Release
         run: |
