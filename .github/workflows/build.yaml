@@ -23,7 +23,7 @@ jobs:
           go-version: ^1.22
 
       - name: Install latest selfupdate cli
-        run: go install selfupdate.blockthrough.com/cmd/selfupdate@latest
+        run: go install selfupdate.blockthrough.com/cmd/selfupdate@v0.0.3
 
       - name: Setup Repo
         uses: actions/checkout@v3
